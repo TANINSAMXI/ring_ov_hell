@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
@@ -15,174 +16,62 @@
             font-display: swap;
         }
 
-        /* General Reset for consistent styling */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-
-        /* General Image Styling */
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-
-        h1, h2, h4 {
-            font-family: 'Trajanus Roman', sans-serif;
-            margin-bottom: 20px;
-        }
-
-        h4 {
-            margin-top: 10px;
-        }
-
-        .ring-image, .engraving-image {
-            max-width: 300px;
-            margin: 0 auto;
-        }
-
-        .seal-image {
-            width: 20%;
-            max-width: 50px;
-            padding: 0 10px;
-            display: inline-block;
-        }
-
-        .seal-image-large {
-            width: 25%;
-            max-width: 100px;
-            padding: 0 10px;
-            display: inline-block;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .row {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
-        /* Media Queries for responsive design */
-        @media screen and (max-width: 768px) {
-            h1, h2 {
-                font-size: 1.2em;
-            }
-
-            .seal-image, .seal-image-large {
-                width: 30%;
-                max-width: 80px;
-                margin-bottom: 10px;
-            }
-
-            .container {
-                padding: 10px;
-            }
-
-            .row {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .ring-image, .engraving-image {
-                max-width: 80%;
-            }
-
-            h4 {
-                font-size: 1em;
-            }
-        }
-
-        @media screen and (max-width: 480px) {
-            h1, h2 {
-                font-size: 1em;
-            }
-
-            .seal-image, .seal-image-large {
-                width: 40%;
-                max-width: 60px;
-            }
-
-            .container {
-                padding: 5px;
-            }
-
-            .row {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .ring-image, .engraving-image {
-                max-width: 90%;
-            }
-
-            h4 {
-                font-size: 0.9em;
-            }
-        }
-    </style>
-</head>
-<body>
-<div class="container">
-    <h1>Кольцо серебро стерлинг 925 ;Ширина 10мм ;Диаметр внутрений 18-19мм;Толщина 0,8мм-1мм </h1>
-
+        </style>
+    <body>
+<h1>Кольцо серебро стерлинг 925 ;Ширина 10мм ;Диаметр внутрений 18-19мм;Толщина 0,8мм-1мм </h1>
     <h2>Пример кольца<br>
-        <img src="img/8.webp" class="ring-image" alt="Example ring">
+        <img src="img/8.webp" style="height: 300px;width: 300px">
+    </h2>
+    <h2>Пример гравировки(гравировка не должна быть темной)<br>
+    <img src="img/7.webp" style="height: 300px;width: 300px">
     </h2>
 
-    <h2>Пример гравировки (гравировка не должна быть темной)<br>
-        <img src="img/7.webp" class="engraving-image" alt="Engraving example">
-    </h2>
 
-    <h2>Наружная сторона кольца/будет два ряда/первый ряд надпись/второй сигилы(печати)/<br> шрифт (font) 'Trajanus Roman'</h2>
 
+<h2>Наружная сторона кольца/будет два ряда/первый ряд надпись/второй сигилы(печати)/<br>
+    шрифт (font) 'Trajanus Roman' </h2>
+<h4 style="font-family: 'Trajanus Roman', sans-serif;">
     <h4>первый ряд</h4>
-    <p>AVE BAPHOMET</p>
-    <p>O LVCIFER</p>
-    <p>TEMPLI OMNIVM HOMINVM PACIS ABBAS</p>
-    <p>SOLVE ET COAGVLA</p>
-    <p>NON SERVIAM</p>
+    AVE BAPHOMET
 
+    O LVCIFER
+
+    TEMPLI OMNIVM HOMINVM PACIS ABBAS
+
+    SOLVE ET COAGVLA
+
+    NON  SERVIAM</h4><br>
     <h4>второй ряд</h4>
-    <div class="row">
-        <img src="img/1.png" class="seal-image" alt="Seal 1">
-        <img src="img/2.png" class="seal-image" alt="Seal 2">
-        <img src="img/3.png" class="seal-image" alt="Seal 3">
-        <img src="img/4.png" class="seal-image-large" alt="Seal 4">
-        <img src="img/5.png" class="seal-image-large" alt="Seal 5">
-    </div>
-
+    <img style="height: 20px;width: 20px;padding-left: 50px;padding-right: 120px" src="img/1.png">
+    <img style="height: 20px;width: 20px;padding-right: 120px" src="img/2.png">
+    <img style="height: 20px;width: 20px;padding-right: 120px" src="img/3.png">
+    <img style="height: 40px;width: 40px;padding-right: 120px" src="img/4.png">
+    <img style="height: 40px;width: 40px;padding-right: 120px;" src="img/5.png">
+    <br><br><br><br><br><br><br><br><br><br><br><br>
     <h4>Печати в увиличеном виде</h4>
-    <ol>
-        <li><img src="img/1.png" class="seal-image-large" alt="Seal 1 larger"></li>
-        <li><img src="img/2.png" class="seal-image-large" alt="Seal 2 larger"></li>
-        <li><img src="img/3.png" class="seal-image-large" alt="Seal 3 larger"> Все печати /толщина линии как эта</li>
-        <li><img src="img/4.png" class="seal-image-large" alt="Seal 4 larger"></li>
-        <li><img src="img/5.png" class="seal-image-large" alt="Seal 5 larger"></li>
-    </ol>
 
-    <h2 style="margin-top: 100px">Внутренняя сторона шрифт (font) 'Trajanus Roman'<br> если возможно сделать одним рядом или по усмотрению /две одинаковых печати</h2>
 
-    <h4>
-        <img src="img/6.jpg" style="height: 20px;width: 20px" alt="Seal 6"> VEDAR GAL TIEKALS SOMDUS AZERATE
-        <img src="img/6.jpg" style="height: 20px;width: 20px" alt="Seal 6">
-        TOHV TEHOM THELI THAN LEVIATHAN TANINIVER TANINSAM
-    </h4>
+<ol>
+    <li><img style="height: 80px;width: 80px" src="img/1.png"></li>
+    <li><img style="height: 100px;width: 100px" src="img/2.png"></li>
+    <li><img style="height: 80px;width: 80px" src="img/3.png">
+        Все печати /толщина линии как эта
+    </li>
+    <li><img style="height: 100px;width: 100px" src="img/4.png"></li>
+    <li><img style="height: 100px;width: 100px" src="img/5.png"></li>
+</ol>
 
+
+<h2 style="margin-top: 100px">Внутренняя сторона шрифт (font) 'Trajanus Roman'<br>
+если возможно сделать одним рядом или по усмотрению /две одинаковых печати</h2>
+<h4 style="font-family: 'Trajanus Roman', sans-serif">
+    <img style="height: 20px;width: 20px" src="img/6.jpg"> VEDAR GAL TIEKALS SOMDUS AZERATE <img style="height: 20px;width: 20px" src="img/6.jpg">
+    TOHV TEHOM THELI THAN LEVIATHAN TANINIVER TANINSAM
+</h4>
     <h4>Печать в увиличеном виде</h4><br>
-    <img src="img/6.jpg" style="height: 200px;width: 200px" alt="Seal 6 large">
-</div>
+    <img style="height: 200px;width: 200px" src="img/6.jpg">
+
+
+
 </body>
 </html>
